@@ -12,7 +12,7 @@ This is a minimal Next.js starter project with Tailwind CSS and query set up, so
 
 Before you begin, make sure you have the following tools installed on your machine:
 
-- Node.js (>= 12.0.0)
+- Node.js (>= 16.14.0)
 - pnpm (>= 6.0.0)
 
 If you don't have `pnpm` installed, you can install it globally using the following command:
@@ -49,13 +49,27 @@ To add new pages, simply create a new `.js` or `.tsx` file inside the `pages` di
 
 For fetching data, React Query is set up as a provider, allowing you to use your preferred method of implementation.
 
+## Linting
+
+This project uses the Rome linter to lint JavaScript and TypeScript files. Please note that Rome currently does not support linting HTML, Markdown, or CSS files.
+
+To lint the project, run the following command:
+
+#### `pnpm run lint`
+
+By default, the lint command only checks the `pages` folder. If you want to lint additional folders, simply update the command in the `scripts` section of your `package.json` file.
+
+## Git Hooks and GitHub Workflow
+
+This project includes a GitHub workflow for type checking and linting on push events. Additionally, you can use `simple-git-hooks` to set up a pre-commit hook that runs type checking and linting before committing your changes. For more information on setting up `simple-git-hooks`, refer to [this guide](https://github.com/toplenboren/simple-git-hooks).
+
 ## Deployment
 
 To deploy your app, you can use platforms like [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), or [Railway](https://railway.app). Follow their respective documentation to deploy your Next.js application.
 
 - Vercel: [https://vercel.com/docs](https://vercel.com/docs)
 - Netlify: [https://www.netlify.com/docs](https://www.netlify.com/docs)
-- Railway: [https://docs.railway.app](https://docs.railway.app) 
+- Railway: [https://docs.railway.app](https://docs.railway.app)
 
 ## License
 

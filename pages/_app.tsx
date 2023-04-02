@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Barebone</title>s
+				<title>Barebone</title>
 			</Head>
 
 			<QueryClientProvider client={queryClient}>
