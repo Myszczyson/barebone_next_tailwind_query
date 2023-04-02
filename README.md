@@ -43,7 +43,7 @@ To get started with this project, follow these steps:
 
 ## Customizing the Project
 
-Now that you have the project set up, you can start customizing it to suit your needs. Edit the `pages/index.js` file to add your own components and modify the `styles/tailwind.css` file to add your custom Tailwind CSS styles.
+Now that you have the project set up, you can start customizing it to suit your needs.
 
 To add new pages, simply create a new `.js` or `.tsx` file inside the `pages` directory.
 
