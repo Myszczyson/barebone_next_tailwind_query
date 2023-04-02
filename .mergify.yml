@@ -1,8 +1,0 @@
-pull_request_rules:
-  - name: Automatically merge Dependabot PRs
-    conditions:
-      - author~=^dependabot(|-preview|-bot)(\\[bot\\])?$
-      - status-success=ci
-    actions:
-      merge:
-        method: merge
