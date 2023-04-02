@@ -1,6 +1,9 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/globals.css";
+
+const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
@@ -9,7 +12,9 @@ function MyApp({ Component, pageProps }: AppProps) {
 				<title>Barebone</title>s
 			</Head>
 
-			<Component {...pageProps} />
+			<QueryClientProvider client={queryClient}>
+				<Component {...pageProps} />
+			</QueryClientProvider>
 		</>
 	);
 }

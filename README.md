@@ -1,47 +1,62 @@
-# TypeScript Next.js example
+# Next.js Tailwind Starter with Query
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+This is a minimal Next.js starter project with Tailwind CSS and query set up, so you can easily get started with your own custom project. The setup is simple and straightforward, allowing you to focus on building your application the way you like.
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+- Next.js framework for building React applications
+- Tailwind CSS for styling
+- Basic query setup for fetching data
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+## Prerequisites
 
-## How to use it?
+Before you begin, make sure you have the following tools installed on your machine:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Node.js (>= 12.0.0)
+- pnpm (>= 6.0.0)
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-```
+If you don't have `pnpm` installed, you can install it globally using the following command:
 
-```bash
-yarn create next-app --example with-typescript with-typescript-app
-```
+### `npm install -g pnpm`
 
-```bash
-pnpm create next-app --example with-typescript with-typescript-app
-```
+## Getting Started
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+To get started with this project, follow these steps:
 
-## Notes
+1. Clone the repository:
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+#### `https://github.com/Myszczyson/barebone_next_tailwind_query.git`
 
-```
-npm install --save-dev typescript
-```
+2. Change to the project directory:
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+#### `cd barebone_next_tailwind_query`
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+3. Install dependencies:
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+#### `pnpm install`
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+4. Start the development server:
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+#### `pnpm run dev`
+
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Customizing the Project
+
+Now that you have the project set up, you can start customizing it to suit your needs. Edit the `pages/index.js` file to add your own components and modify the `styles/tailwind.css` file to add your custom Tailwind CSS styles.
+
+To add new pages, simply create a new `.js` or `.tsx` file inside the `pages` directory.
+
+For fetching data, React Query is set up as a provider, allowing you to use your preferred method of implementation.
+
+## Deployment
+
+To deploy your app, you can use platforms like [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), or [Railway](https://railway.app). Follow their respective documentation to deploy your Next.js application.
+
+- Vercel: [https://vercel.com/docs](https://vercel.com/docs)
+- Netlify: [https://www.netlify.com/docs](https://www.netlify.com/docs)
+- Railway: [https://docs.railway.app](https://docs.railway.app) 
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
