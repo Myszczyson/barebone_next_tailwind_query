@@ -35,11 +35,15 @@ To get started with this project, follow these steps:
 
 #### `pnpm install`
 
-4. Start the development server:
+4. Set up precommit command
+
+#### `npx simple-git-hooks`
+
+5. Start the development server:
 
 #### `pnpm run dev`
 
-5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+6. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Customizing the Project
 
