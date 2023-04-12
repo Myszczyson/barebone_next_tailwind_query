@@ -77,4 +77,4 @@ To deploy your app, you can use platforms like [Vercel](https://vercel.com), [Ne
 
 ## License
 
-This project is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is released under the MIT License.
