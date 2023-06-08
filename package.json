@@ -6,6 +6,7 @@
 		"start": "next start",
 		"type-check": "tsc",
 		"lint": "rome format ./pages --write",
+		"postlint": "git add .",
 		"precommit": "pnpm run type-check && pnpm run lint"
 	},
 	"simple-git-hooks": {
