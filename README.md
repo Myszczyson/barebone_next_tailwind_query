@@ -49,7 +49,7 @@ To get started with this project, follow these steps:
 
 Now that you have the project set up, you can start customizing it to suit your needs.
 
-To add new pages, simply create a new `.js` or `.tsx` file inside the `pages` directory.
+To add new pages, simply create a new `.jsx` or `.tsx` file inside the `pages` directory.
 
 For fetching data, React Query is set up as a provider, allowing you to use your preferred method of implementation.
 
